@@ -1,0 +1,129 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.google.com/specimen/Archivo+Black/tester?query=black+');
+/* Variables */
+
+:root{
+    --bg-body :#080808;
+    --primary-color:#9e9796;
+    --fontSize-title: 100px;
+    --fontSize-parrafos: 18px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,a,li,td,input,label{
+    font-family: 'archivo+black', query=black;
+}
+
+body{
+    background-color: var(--bg-body);
+}
+
+nav{
+    background-color: #9E9796;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+}
+
+header{
+    padding-top: 0px;
+}
+
+nav.bg-portafolio{
+    background-color: var(--bg-body);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    top: 30px;
+}
+
+
+#hero{
+    padding: 400px 0; 
+}
+
+#hero{
+    width: 600px;
+    height: 900px;
+    position:absolute;
+    bottom: 30px;
+    right: 5px;
+    z-index: 10;
+    }
+
+.box{
+    width: 600px;
+    height: 460px;
+    position:absolute;
+    bottom: 20px;
+    right: 50px;
+    z-index: 10;
+}
+
+#Nombre{
+    width: 600px;
+    height: 460px;
+    position:absolute;
+    bottom: 1px;
+    right: 750px;
+    padding: 100PX;
+    z-index: 10;
+    font-size: var(--fontSize-title);
+    font-weight: bold;
+    color: white;
+
+   
+}
+
+.Nombre{
+    animation-name: cambioColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambioColor {
+    0% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: green;
+    }
+}
+
+h1 {
+    font-size: 2.5cm;
+    font-weight: bold;
+  }
+
+
+
+
+button {
+    background-color:blue;
+    font-size: 32px;
+    font-weight: bold;
+    left: 200px;
+  }
+
+
+Parrafo{
+    position: relative;
+    z-index: 100;
+    font-size: var(--fontSize-parrafos);
+    padding:
+ }
+
+  
+
